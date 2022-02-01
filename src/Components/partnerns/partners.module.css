@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.partnersContainer{
+    font-family: 'Raleway', sans-serif;
+    width: 97vw;
+    margin: 0 auto;
+}
+
+.ourPartners{
+    margin-left: 4.5rem;
+}
+
+.ourPartners h5{
+    margin-top: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #414042;
+}
+
+.ourPartnersBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ourPartnersBox img{
+    margin-right: 6rem;
+    margin-top: 3rem;
+    width: 200px;
+    height: 80px;
+}

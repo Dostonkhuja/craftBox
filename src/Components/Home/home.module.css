@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.container{
+    width: 1200px;
+    height: 861px;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container:before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    background-size: 100% 100%;
+    height: 100%;
+    background-image: url("./images/mainBackground.jpg");
+    background-position: center;
+    transform: scaleX(-1);
+}
+
+.navbar ul{
+    font-style: normal;
+    color: #414042;
+    margin: 0 auto;
+    padding-top: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+.navbar ul li{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+    margin-right: 2rem;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.44px;
+}
+
+.navbar li:hover{
+    color: #2a1818;
+}
+
+.navbar ul li:first-child{
+    margin-right: 8rem;
+}
+
+.navbar ul li:last-child{
+    cursor: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 8rem;
+}
+
+.box{
+  position: relative;
+}
+
+.title{
+    margin-left: 5.8rem;
+    margin-top: 100px;
+    color:#414042;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.description{
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 30px;
+    margin-left: 5.8rem;
+    color: #414042;
+}
+
+
+.downloadButton{
+    cursor: pointer;
+    border-radius: 15px;
+    padding:15px 38px 15px 39px;
+    background-color:#232526;
+    margin-left: 5.8rem;
+    margin-top: 55px;
+    border: none;
+    color:#ffffff;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+ .downloadButton:hover{
+    background-color:#C4C4C4;
+    color:#414042;
+}
+
+.fiberboard {
+  position: absolute;
+    right: 353px;
+    top:148px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #414042;
+}
+
+.fiberboardChild1 img{
+    margin-right: 0.5rem;
+}
+
+.fiberboard>img:nth-child(2) {
+    position: absolute;
+    display: inline;
+    right: -147px;
+    top:1px;
+}
+
+.fiberboard>img:nth-child(3) {
+    position: absolute;
+    display: inline;
+    right: -308px;
+    top:170px;
+}
+
+.mobileNavbar ul{
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        min-width: 98vw;
+    }
+    .navbar ul li{
+        margin-right: 3rem;
+    }
+
+    .navbar ul li:first-child{
+        margin-right: 10rem;
+    }
+
+    .navbar ul li:last-child{
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 768px)and (max-width: 1199.9px) {
+    .container{
+        width: 98vw;
+    }
+
+    .container:before{
+        width: 98vw;
+    }
+
+    .navbar ul{
+        padding-top: 30px;
+    }
+
+    .navbar ul li{
+        margin-right: 2rem;
+    }
+
+    .navbar ul li:first-child{
+        margin-right: 2rem;
+    }
+
+    .navbar ul li:last-child{
+        margin-left: 1rem;
+    }
+
+    .title{
+        margin-top: 60px;
+        margin-left: 6.8rem;
+    }
+
+    .description{
+        margin-left: 6.8rem;
+    }
+
+    .downloadButton{
+        margin-left: 6.8rem;
+    }
+
+    .fiberboard {
+        top: 248px;
+    }
+}
+
+@media (min-width: 0px)and (max-width: 767.9px) {
+    .container{
+        width: 100vw;
+        height: 600px;
+    }
+
+    .container:before{
+        top:0;
+        left: 0;
+        width: 100%;
+        background-size: 100% 100%;
+        height: 100%;
+        background-position: center;
+    }
+
+    .navbar ul{
+     display: none;
+    }
+
+    .mobileNavbar{
+        width: 100vw;
+    }
+
+    .mobileNavbar ul{
+        margin: 0;
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8rem;
+
+    }
+
+    .mobileNavbar ul li{
+        cursor: pointer;
+        text-decoration: none;
+        display: inline;
+    }
+
+    .mobileMenuButton{
+        width: 60px;
+    }
+
+    .menuButton{
+        background-color: transparent;
+        border: none;
+    }
+
+    .mobileMenu{
+        display: inline;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        width: 250px;
+        height: 100%;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: #FFFFFF;
+    }
+
+    .mobileMenu li{
+        margin-top: 2rem;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+    }
+
+    .mobileMenu li:hover{
+        color: #414042;
+    }
+
+    .mobileMenuUl{
+        text-decoration: none;
+        display: inline;
+    }
+
+    .title{
+        text-align: center;
+        margin-left: -0.2rem;
+        margin-top: -5px;
+        font-size: 25px;
+        line-height: 38px;
+    }
+
+    .description{
+        text-align: center;
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 23px;
+        margin-left: 0.8rem;
+    }
+
+    .downloadButtonWrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .downloadButton{
+        padding:8px 22px 9px 23px;
+        margin-right: 5rem;
+        margin-top: 3px;
+        font-size: 12px;
+    }
+
+    .fiberboard{
+        display: none;
+    }
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.footerContaiener{
+    font-family: 'Raleway', sans-serif;
+    width: 1200px;
+    margin:0 auto;
+    padding-left: 9rem;
+    padding-top: 5rem;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.footerContaiener>div:nth-child(1){
+    width: 600px;
+}
+
+.footerContaiener>div:nth-child(1) p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #414042;
+
+}
+
+.footerContaiener>div:nth-child(1) ul {
+    padding: 0;
+    margin-bottom: 75px;
+    margin-top: 30px;
+}
+
+.footerContaiener>div:nth-child(1) li{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 2.7rem;
+    padding: 0;
+    display: inline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #414042;
+}
+
+.footerContaiener>div:nth-child(1)>p:nth-child(3){
+    margin-top: 5rem;
+}
+
+.footerContaiener>div:nth-child(2){
+    width: 600px;
+    margin-right: 9rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.footerContaiener>div:nth-child(2) p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #414042;
+}
+
+.footerContaiener>div:nth-child(2)>p:nth-child(1) {
+    margin-top: 85px;
+}
+
+.footerContaiener>div:nth-child(2)>div:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.footerContaiener>div:nth-child(2)>div:nth-child(4) img {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+@media (min-width: 0px)and (max-width: 767.9px) {
+    .footerContaiener{
+        display: none;
+    }
+}
+
+@media (min-width: 768px)and (max-width: 1199.9px) {
+        .footerContaiener{
+          display: none;
+        }
+}

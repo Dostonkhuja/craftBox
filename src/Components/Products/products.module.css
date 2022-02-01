@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.products{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 139px;
+    box-sizing: border-box;
+}
+
+.products img:hover{
+    filter: opacity(.5);
+}
+
+.weProductsTitile{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 30px;
+    color: #414042;
+    font-size:24px;
+    line-height: 28px;
+}
+
+.weProductsItemBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weProductsItemBox img{
+    width: 320px;
+    height: 180px;
+    margin-right: 18px;
+}
+
+.weProductsItemBox>img:nth-child(2){
+    margin-right: 70px;
+}
+
+.ourProductsTitile{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #414042;
+    font-size:24px;
+    line-height: 28px;
+}
+
+.ourProductsItemBox{
+    display: flex;
+}
+
+.ourProductsItemBox>div:nth-child(1) img{
+    width: 330px;
+    height: 280px;
+    margin-right: 20px;
+}
+
+.ourProductsItemBox>div:nth-child(2) img{
+    width: 330px;
+    height: 128px;
+}
+
+.ourProductsItemBox>div:nth-child(2){
+    margin-right: 20px;
+    width: 330px;
+    height: 128px;
+}
+
+.ourProductsItemBox>div:nth-child(2)>img:nth-child(1){
+   margin-bottom: 20px;
+}
+
+.ourProductsItemBox>div:nth-child(3){
+    width: 360px;
+    height: 280px;
+}
+
+.ourProductsItemBox>div:nth-child(3)>img:nth-child(1){
+    height: 127px;
+    width: 170px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.ourProductsItemBox>div:nth-child(3)>img:nth-child(2){
+    height: 127px;
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.ourProductsItemBox>div:nth-child(3)>img:nth-child(3){
+     width: 360px;
+    height: 127px;
+}
+
+@media (min-width: 1200px) {
+    .products{
+        width: 98vw;
+        margin: 0;
+        padding-left: 100px;
+    }
+
+    .weProductsItemBox img{
+        margin-right: 20px;
+    }
+
+    .ourProductsItemBox>div:nth-child(3){
+        margin-right: 100px;
+    }
+
+}
+
+@media (min-width: 0px)and (max-width: 767.9px) {
+    .products{
+        display: flex;
+        width:100vw;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2vw;
+    }
+
+    .weProductsItemBox{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .weProductsItemBox img{
+        margin: 0;
+        padding-top: 20px;
+    }
+
+
+    .weProductsItemBox>img:nth-child(2){
+        margin-right: 0;
+    }
+
+    .ourProductsItemBox{
+        flex-direction: column;
+    }
+
+    .ourProductsItemBox img{
+        margin-top: 20px;
+    }
+
+    .ourProductsItemBox>div:nth-child(1) img{
+        width: 330px;
+        height: 180px;
+        margin-top: 20px;
+    }
+
+    .ourProductsItemBox>div:nth-child(2) img{
+        width: 320px;
+        height: 180px;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .ourProductsItemBox>div:nth-child(2){
+        width: 320px;
+        height: 180px;
+        padding: 0;
+    }
+
+    .ourProductsItemBox>div:nth-child(2)>img:nth-child(1){
+        margin-bottom: 0;
+    }
+
+    .ourProductsItemBox>div:nth-child(1) img{
+        width: 320px;
+        height: 180px;
+        padding: 0;
+    }
+
+    .ourProductsItemBox>div:nth-child(3){
+        width: 320px;
+        height: 180px;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .ourProductsItemBox>div:nth-child(3)>img:nth-child(1){
+        width: 320px;
+        height: 180px;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .ourProductsItemBox>div:nth-child(3)>img:nth-child(2){
+        width: 320px;
+        height: 180px;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .ourProductsItemBox>div:nth-child(3)>img:nth-child(3){
+        width: 320px;
+        height: 180px;
+        padding: 0;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 768px)and (max-width: 1199.9px) {
+    .products{
+        width: 99vw;
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    .ourProductsItemBox{
+        flex-wrap: wrap;
+    }
+
+    .weProductsItemBox{
+        width: 97vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ourProductsItemBox{
+        width: 97vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .weProductsItemBox img{
+        margin-top: 20px;
+    }
+
+    .ourProductsItemBox>div:nth-child(3){
+        margin-top: 20px;
+    }
+}

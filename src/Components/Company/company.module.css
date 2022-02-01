@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.containerCompany{
+    font-family: 'Raleway', sans-serif;
+    width: 98vw;
+    padding-left: 8.7rem;
+    box-sizing: border-box;
+}
+
+.company{
+    margin-top: 70px;
+    width: 1060px;
+    height: 380px;
+    display: flex;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: #414042;
+    margin-bottom: 2rem;
+}
+
+.company>div:nth-child(1){
+    width: 60vw;
+}
+
+.company>div:nth-child(2){
+    width: 40vw;
+}
+
+.company img{
+   width: 40vw;
+    height: 335px;
+}
+
+.company h1{
+    padding-left: 30px;
+    padding-top: 2vw;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.company p{
+    width: 40vw;
+    padding-left: 3vw;
+    padding-top: 1vw;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 100;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px)and (max-width: 1199.9px) {
+    .containerCompany{
+        box-sizing: border-box;
+        width:98vw;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .company{
+        width:100vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .containerCompany{
+        width: 98vw;
+        padding-left: 0.3rem;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .company{
+        width:98vw;
+    }
+}
+
+@media (min-width: 0px)and (max-width: 767.9px) {
+    .containerCompany{
+        margin-top: 400px;
+        width: 98vw;
+        padding-left: 0.3rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .company{
+        width:98vw;
+    }
+
+    .company>div:nth-child(1){
+        width: 98vw;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .company>div:nth-child(2){
+        width: 0vw;
+    }
+
+    .company img{
+        display: none;
+    }
+
+    .company h1{
+       text-align: center;
+    }
+
+    .company p{
+        width: 84vw;
+        text-align: center;
+    }
+}

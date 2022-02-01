@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.manufactoringContainer{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    width: 97vw;
+    margin: 0 auto;
+}
+
+.advantages{
+    box-sizing: border-box;
+   margin-left: 4.5rem;
+}
+
+.advantages h5{
+    margin-top: 5rem;
+   font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #414042;
+}
+
+.advantagesBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advantagesBox div{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.advantagesBox h1{
+    margin: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.advantagesBox p{
+    color: #414042;
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.questions{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #414042;
+}
+
+.questions>div:nth-child(1){
+    color: #FFFFFF;
+}
+
+.phoneNumber{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.buttonProject{
+    cursor: pointer;
+    background-color: #C4C4C4;
+    border: none;
+    width: 197px;
+    height: 43px;
+    border-radius: 15px;
+}
+
+.buttonProject:hover{
+    background-color: #161516;
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px)and (max-width: 1199.9px) {
+
+    .manufactoringContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .advantages{
+        width: 97vw;
+        padding-left: 2rem;
+        margin: 0;
+    }
+
+    .advantagesBox{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advantagesBox div{
+        margin: 1rem;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .questions{
+        width: 85vw;
+        margin-top: 111px;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .questions>div:nth-child(1){
+        margin-right: 10vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 58px;
+        margin-bottom: 58px;
+        margin-left:5vw;
+    }
+
+    .questions>div:nth-child(2){
+        padding: 2vw;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .questions>div:nth-child(2)>div:nth-child(1) img{
+        margin-right: 0;
+    }
+
+    .questions>div:nth-child(2)>button{
+        cursor: pointer;
+        background-color: #C4C4C4;
+        margin-top: 0;
+        border: none;
+        width: 197px;
+        height: 43px;
+        border-radius: 15px;
+    }
+
+    .questions>div:nth-child(1){
+        text-align: center
+    }
+}
+
+@media (min-width: 0px)and (max-width: 767.9px) {
+    .manufactoringContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advantages{
+        margin-left: 2rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .advantagesBox{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advantagesBox div{
+        margin: 3rem;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .questions{
+        padding: 20px;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+
+}
